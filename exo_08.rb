@@ -1,5 +1,5 @@
 puts "Donne moi un nombre !"
 number = gets.chomp.to_i
-1.upto(number) do |i|
+number.downto(1) do |i|
     puts i
 end
